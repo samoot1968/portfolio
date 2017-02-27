@@ -1,0 +1,119 @@
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+
+body {
+  color: $text-color;
+  font-family: $font-family-sans-serif;
+}
+
+h1 {
+  color: $header-color;
+  font-family: $font-family-sans-serif;
+}
+
+p {
+  color: $text-color;
+  font-family: $font-family-sans-serif;
+}
+
+#myInfo {
+  height: 100vh;
+}
+
+.sketch-div {
+  height: 90vh;
+  background-color: $upper-section-color;
+  display: flex;
+  flex-direction: row;
+}
+
+.sketch-div-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+
+.sketch-div-header>.header-center{
+  z-index: 2;
+  margin-bottom: 185px;
+}
+
+.sketch-div-header>.header-center>h1{
+  color: $white-header;
+  font-size: 3.8em;
+  font-weight: $font-weight;
+}
+
+.container-fluid {
+  margin-top: 0;
+}
+
+#particles-js {
+  height: 90vh;
+  width: 100%;
+  position: absolute;
+}
+
+.navbar{
+  margin-bottom: 0;
+  background: $white-header;
+}
+
+.navbar-nav>li>a{
+  color: $link-color !important;
+  font-family: $font-family-sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  line-height: 2em;
+  font-style: normal;
+}
+
+.content-section{
+  display: block;
+  text-align: center;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  clear:both;
+}
+
+.content-header {
+  padding-bottom: 75px;
+}
+
+#skill-section {
+  min-height: 250px;
+  border-radius: 10px;
+  transition: box-shadow 0.5s;
+  &:hover, &focus {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+}
+
+.inner-skill-section {
+  padding: 15px;
+}
+
+.skill-section-icon i{
+  font-size: 150px;
+  padding: 15px;
+}
+
+.skill-section-rating {
+  display: inline-block;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.skill-section-text {
+  margin-top: 10px;
+}
