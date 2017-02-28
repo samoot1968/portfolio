@@ -24,9 +24,7 @@ p {
   font-family: $font-family-sans-serif;
 }
 
-#myInfo {
-  height: 100vh;
-}
+
 
 .sketch-div {
   height: 90vh;
@@ -121,9 +119,60 @@ p {
 .footer {
   background-color: #2A3A3F;
   padding: 80px 0 50px;
+  text-align: center;
 }
 
 .footer p {
   display: block;
   text-align: center;
+}
+
+/* Enter and leave animations can use different */
+/* durations and timing functions.              */
+.slide-fade-enter-active {
+  transition: all .3s ease;
+}
+.slide-fade-leave-active {
+  transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-fade-enter, .slide-fade-leave-to
+/* .slide-fade-leave-active for <2.1.8 */ {
+  transform: translateX(10px);
+  opacity: 0;
+}
+
+
+@mixin breakpoint($class) {
+  @if $class == xs {
+    @media (max-width: 767px) { @content; }
+  }
+
+  @else if $class == sm {
+    @media (min-width: 768px) { @content; }
+  }
+
+  @else if $class == md {
+    @media (min-width: 992px) { @content; }
+  }
+
+  @else if $class == lg {
+    @media (min-width: 1200px) { @content; }
+  }
+
+  @else {
+    @warn "Breakpoint mixin supports: xs, sm, md, lg";
+  }
+}
+
+#myInfo {
+  @include breakpoint(xs){
+    height: auto;
+  }
+  @include breakpoint(sm){
+    height: auto;
+  }
+  @include breakpoint(md){
+    height: auto;
+  }
+  height: 100vh;
 }

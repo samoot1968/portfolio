@@ -5,7 +5,7 @@
 
         <div class="content-header">
           <h1>My Expertise</h1>
-          <h3>I cosider myself (slightly) above junior web developer</h3>
+          <h3>I consider myself (slightly) above junior web developer</h3>
         </div>
 
         <div class="row">
@@ -58,7 +58,7 @@ export default {
           selected: 'good',
           options: [
             { text: 'Bad', value: 'bad'},
-            { text: 'Medicotre', value: 'medicore'},
+            { text: 'Medicore', value: 'medicore'},
             { text: 'Good', value: 'good'},
             { text: 'Awesome', value: 'awesome'}
           ],
@@ -71,7 +71,7 @@ export default {
           selected: 'medicore',
           options: [
             { text: 'Bad', value: 'bad'},
-            { text: 'Medicotre', value: 'medicore'},
+            { text: 'Medicore', value: 'medicore'},
             { text: 'Good', value: 'good'},
             { text: 'Awesome', value: 'awesome'}
           ],
@@ -84,7 +84,7 @@ export default {
           selected: 'medicore',
           options: [
             { text: 'Bad', value: 'bad'},
-            { text: 'Medicotre', value: 'medicore'},
+            { text: 'Medicore', value: 'medicore'},
             { text: 'Good', value: 'good'},
             { text: 'Awesome', value: 'awesome'}
           ],

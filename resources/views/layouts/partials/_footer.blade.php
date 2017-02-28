@@ -8,7 +8,7 @@
     <script src="{{ asset('js/jquery.barrating.min.js')}}"type="text/javascript"></script>
     <script type="text/javascript">
 
-    var $item = document.getElementById('#myInfo');
+
 
        $(function() {
         $('#tlt').textillate({ loop: false, in: { effect: 'fadeInLeftBig' } });
@@ -23,7 +23,6 @@
        });
 
 
- })
     </script>
 
 </body>
