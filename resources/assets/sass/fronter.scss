@@ -79,7 +79,7 @@ p {
 .content-section{
   display: block;
   text-align: center;
-  margin-top: 75px;
+  margin-top: 125px;
   margin-bottom: 75px;
   clear:both;
 }
@@ -173,6 +173,9 @@ p {
   }
   @include breakpoint(md){
     height: auto;
+  }
+  @include breakpoint(lg){
+    height: 100vh;
   }
   height: 100vh;
 }
