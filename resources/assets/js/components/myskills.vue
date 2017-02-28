@@ -10,8 +10,8 @@
 
         <div class="row">
           <div class="content">
-            <div class="col-lg-4 col-md-3 col-xs-12 col-offset-lg-12" v-for="info in data" :key="info.id">
-                <div id="skill-section">
+            <div class="col-lg-4 col-md-3 col-xs-12 col-offset-lg-12" v-for="info in data">
+                <div id="skill-section" class="animated bounceInLeft">
                   <div class="inner-skill-section" >
                     <div class="skill-section-icon">
                       <i v-bind:class="info.class" aria-hidden="true"></i>
@@ -88,7 +88,7 @@ export default {
             { text: 'Good', value: 'good'},
             { text: 'Awesome', value: 'awesome'}
           ],
-          sectionText: "I don't have work experience as server administrator but i know basic (linux) commands and know basic web server(apache, ngix) structural layout .For personal use I use ubuntu server(16.*) on daily basis and have experience with domains."
+          sectionText: "I don't have work experience as server administrator but i know basic (linux) commands and know basic web server(apache, ngix) structural layout .For personal use I use ubuntu server(16.*) on daily basis and have experience in setting up domains."
         }
       ]
     }

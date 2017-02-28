@@ -5,7 +5,8 @@
     <div id="particles-js"></div>
     <div class="sketch-div-header">
       <div class="header-center">
-        <h1 id="tlt">Hi, I'm Toomas Unt. I design & build websites.</h1>
+        <h1 id="tlt">Hi, I'm Toomas Unt.</h1>
+        <h1 id="tlts">I design & build websites</h1>
       </div>
     </div>
   </div>
@@ -20,7 +21,7 @@ import NavBar from './navigation.vue';
           'navbar': NavBar
         }
 
-        
+
     }
 
 </script>
