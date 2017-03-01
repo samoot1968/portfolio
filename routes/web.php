@@ -18,4 +18,10 @@ Route::get('/{vue_capture?}', [
 ])->where('vue_capture', '[\/\w\.-]*');
 
 
+
+Route::get('/contact', [
+  'uses' => 'EmailController@index',
+  'as' => 'contact.me'
+]);
+
 Auth::routes();

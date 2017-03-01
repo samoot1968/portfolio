@@ -27,7 +27,7 @@
 
                 <li><router-link to="/" >My Skills</router-link></li>
                 <li><router-link to="/portfolio">Portfolio</router-link></li>
-                <li><router-link to="/contact">Contact</router-link></li>
+                <li><a href="#">Contact</a></li>
               </ul>
           </div><!-- End of Collapse navbar-collapse -->
       </div><!-- End of Container -->

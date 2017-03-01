@@ -4,10 +4,15 @@
  * includes Vue and other libraries. It is a great starting point when
  * building robust, powerful web applications using Vue and Laravel.
  */
-import VueRouter from 'vue-router';
-require('./bootstrap');
 
+
+require('./bootstrap');
+import VueRouter from 'vue-router';
 Vue.use(VueRouter);
+
+
+
+
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -17,12 +22,12 @@ Vue.use(VueRouter);
 var fronter = Vue.component('fronter', require('./components/fronter.vue'));
 var myskills = Vue.component('myskills', require('./components/myskills.vue'));
 var portfolio = Vue.component('portfolio', require('./components/portfolio.vue'));
-var contact = Vue.component('contact', require('./components/contact.vue'));
+
 
 const routes = [
   {path: '/', component: myskills},
   {path: '/portfolio', component: portfolio},
-  {path: '/contact', component: contact},
+
 ]
 
 

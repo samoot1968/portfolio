@@ -119,13 +119,24 @@ p {
 
 .skill-section-button  {
   margin-top: 20px;
+  display: block;
+  text-align: center;
+  padding-top: 30px;
 }
 
 .skill-section-button > a {
   padding: 1.2rem 3.2rem;
-  color: $btn-black;
+  color: #fff;
   border: 2px solid #FDCD3B;
   border-radius: 50px;
+}
+
+.mailme-button > button {
+  padding: 1.2rem 3.2rem;
+  color: $btn-black;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  background-color: transparent;
 }
 
 .footer {
@@ -153,6 +164,44 @@ p {
   opacity: 0;
 }
 
+
+.form-container input[type=text] {
+  margin-bottom: 25px;
+  font-size: 1.3rem;
+  background-color: transparent;
+  border: 2px solid $upper-section-color;
+  color: $text-color;
+}
+
+.form-container textarea {
+  margin-bottom: 25px;
+  font-size: 1.3rem;
+  background-color: transparent;
+  border: 2px solid $upper-section-color;
+  color: $text-color;
+}
+
+#contact {
+  height: auto;
+  background-color: #FDCD3B;
+  clear:both;
+}
+
+
+.modal-dialog{
+  height: 100%;
+  width:100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.modal-content {
+  height: auto;
+  min-height: 100%;
+  border-radius: 0;
+  background-color: #383838;
+}
 
 @mixin breakpoint($class) {
   @if $class == xs {
@@ -190,4 +239,37 @@ p {
     height: 100vh;
   }
   height: 100vh;
+}
+
+.form-container {
+  @include breakpoint(xs){
+    width: 90%;
+  }
+  @include breakpoint(sm){
+    width: 80%;
+  }
+  @include breakpoint(md){
+    width: 50%;
+  }
+  @include breakpoint(lg){
+    width: 50%;
+  }
+  width: 50%;
+  padding: 10%;
+  margin: 0 auto;
+}
+
+.close {
+  font-size: 60px;
+}
+
+.modal-header {
+  border-bottom: 0;
+}
+
+
+.content h1 {
+  color: #fff;
+  display: block;
+  text-align: center;
 }
