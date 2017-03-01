@@ -57,7 +57,7 @@ p {
 }
 
 #particles-js {
-  height: 90vh;
+  height: 80vh;
   width: 100%;
   position: absolute;
 }
@@ -79,7 +79,7 @@ p {
 .content-section{
   display: block;
   text-align: center;
-  margin-top: 125px;
+  margin-top: 75px;
   margin-bottom: 75px;
   clear:both;
 }
@@ -112,8 +112,20 @@ p {
   margin-top: 15px;
   margin-bottom: 15px;
 }
+
 .skill-section-text {
   margin-top: 10px;
+}
+
+.skill-section-button  {
+  margin-top: 20px;
+}
+
+.skill-section-button > a {
+  padding: 1.2rem 3.2rem;
+  color: $btn-black;
+  border: 2px solid #FDCD3B;
+  border-radius: 50px;
 }
 
 .footer {

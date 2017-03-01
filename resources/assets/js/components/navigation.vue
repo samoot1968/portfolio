@@ -25,7 +25,7 @@
               <!-- Right Side Of Navbar -->
               <ul class="nav navbar-nav navbar-right">
 
-                <li><router-link to="/">My Skills</router-link></li>
+                <li><router-link to="/" >My Skills</router-link></li>
                 <li><router-link to="/portfolio">Portfolio</router-link></li>
                 <li><router-link to="/contact">Contact</router-link></li>
               </ul>
@@ -42,7 +42,7 @@ export default {
       url: '/'
     }
   },
-  
+
 
   }
 

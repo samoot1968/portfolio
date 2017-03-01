@@ -6,10 +6,9 @@
     <script src="{{ asset('js/jquery.textillate.js')}}"type="text/javascript"></script>
     <script src="{{ asset('js/particles.js')}}"type="text/javascript"></script>
     <script src="{{ asset('js/jquery.barrating.min.js')}}"type="text/javascript"></script>
-    <script src="{{ asset('js/jquery.scrollTo.js')}}" type="text/javascript">
+    <script src="{{ asset('js/smooth-scroll.js')}}" type="text/javascript">
     </script>
     <script type="text/javascript">
-
 
 
        $(function() {
@@ -24,12 +23,6 @@
          console.log('callback - particles.js config loaded');
        });
 
-
-       $(function() {
-         $('.router-link-active').click(function () {
-             $.scrollTo('#myInfo', 1000);
-         });
-      });
 
     </script>
 
