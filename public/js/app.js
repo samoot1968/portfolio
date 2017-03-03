@@ -12668,15 +12668,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
       portfolio: [{
         name: 'Portfolio Site',
         description: 'Portfolio site to display some of my projects and to show off some of my skills. This project uses laravel as backend and bootstrap/VueJS as frontend. (Vue AJAX)',
-        link: 'https://github.com/toomas1968/cv'
+        link: ''
       }, {
         name: 'Ecommerce',
         description: 'Ecommerce site(beta).Uses laravel as backend. Has all main features including Shopping-cart, admin panel, categories etc. Im adding more features and design fixes soon.',
-        link: 'https://github.com/toomas1968/commerce'
+        link: ''
       }, {
         name: 'Digitalocean API',
         description: 'Digitalocean API to create droplets. ',
-        link: 'https://github.com/toomas1968/digitaloceanAPI'
+        link: ''
 
       }]
     };
