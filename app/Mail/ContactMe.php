@@ -32,12 +32,9 @@ class ContactMe extends Mailable
      */
     public function build()
     {
-          $file = Storage::get("CV.pdf");
-          return $this->view('layouts.mail.mail')
-          ->attach($file, [
-            'as' => 'cv.pdf',
-            'mime' => 'application/pdf',
-        ]);
+
+        $file = Storage::get('toomas_unt_CV.docx');
+        return $this->view('layouts.mail.mail');
 
     }
 }
