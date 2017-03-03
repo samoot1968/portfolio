@@ -10,6 +10,9 @@
       </div>
     </div>
   </div>
+  <transition name="slide">
+    <router-view></router-view>
+  </transition>
 </div>
 </template>
 
@@ -17,9 +20,9 @@
 import NavBar from './navigation.vue';
 
     export default {
-        components: {
-          'navbar': NavBar
-        }
+      components: {
+        'navbar': NavBar
+      }
 
 
     }

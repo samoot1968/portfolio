@@ -122,11 +122,13 @@ p {
   display: block;
   text-align: center;
   padding-top: 30px;
+  padding-bottom: 15px;
+  clear:both;
 }
 
 .skill-section-button > a {
   padding: 1.2rem 3.2rem;
-  color: #fff;
+  color: $text-color;
   border: 2px solid #FDCD3B;
   border-radius: 50px;
 }
@@ -269,7 +271,6 @@ p {
 
 
 .content h1 {
-  color: #fff;
   display: block;
   text-align: center;
 }

@@ -57,8 +57,13 @@ export default {
         link: 'https://github.com/toomas1968/digitaloceanAPI'
 
       }
-      ]
-    }
+    ],
+  }
+
+  },
+
+  mounted(){
+    axios.get('api/t').then(response => console.log(response))
   }
 }
 </script>

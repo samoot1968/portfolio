@@ -2,9 +2,6 @@
 @section('content')
   <div id="app" class="contaner-fluid">
     <fronter></fronter>
-      <transition name="slide">
-        <router-view></router-view>
-      </transition>
       <div id="contact">
         <div class="container">
           <div class="content-section">
@@ -33,7 +30,8 @@
                   <h1>Tell me about yourself</h1>
                   <div class="contactme">
                     <div class="form-container">
-                      <form  method="get">
+                      <form  action="{{ route('contact.me')}}" method="post">
+                        <input type="hidden" name="_token" value="{{ csrf_token() }}">
                         <div class="form-group">
                           <div class="row">
                             <div class="col-md-6">
@@ -64,7 +62,7 @@
                               <textarea  class="form-control" rows="5" name="letter" placeholder="Tell me about yourself.*"></textarea>
                             </div>
                             <div class="skill-section-button">
-                              <a href="#">Let it Fly</a>
+                              <button type="submit">Let it Fly</button>
                             </div>
                           </div>
                         </div>

@@ -11,7 +11,6 @@
 |
 */
 
-
 Route::get('/{vue_capture?}', [
   'uses' => 'PageController@index',
   'as' => 'page.index'
@@ -19,9 +18,12 @@ Route::get('/{vue_capture?}', [
 
 
 
-Route::get('/contact', [
-  'uses' => 'EmailController@index',
+Route::post('/send', [
+  'uses' => 'EmailController@sendMail',
   'as' => 'contact.me'
 ]);
+
+
+
 
 Auth::routes();

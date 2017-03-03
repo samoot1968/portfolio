@@ -27,13 +27,13 @@ var portfolio = Vue.component('portfolio', require('./components/portfolio.vue')
 const routes = [
   {path: '/', component: myskills},
   {path: '/portfolio', component: portfolio},
-
 ]
 
 
 const router = new VueRouter({
-  mode: 'history',
-  routes
+  routes,
+  mode:'history',
+  base: __dirname,
 });
 
 
