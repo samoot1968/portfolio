@@ -33,7 +33,7 @@ class ContactMe extends Mailable
     public function build()
     {
 
-        $file = Storage::get('toomas_unt_CV.docx');
+        
         return $this->view('layouts.mail.mail');
 
     }

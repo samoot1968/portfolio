@@ -10,9 +10,11 @@
       </div>
     </div>
   </div>
+<div id="myInfo">
   <transition name="slide">
     <router-view></router-view>
   </transition>
+</div>
 </div>
 </template>
 

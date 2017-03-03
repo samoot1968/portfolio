@@ -7,8 +7,12 @@
 
 
 require('./bootstrap');
+
 import VueRouter from 'vue-router';
+import vueScrollTo from 'vue-scroll-to';
+
 Vue.use(VueRouter);
+Vue.use(vueScrollTo);
 
 
 

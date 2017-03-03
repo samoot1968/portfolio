@@ -21,7 +21,26 @@
          console.log('callback - particles.js config loaded');
        });
 
+       $("#button").click(function(e) {
+         e.preventDefault();
+        $('html, body').stop(true,false).animate({
+            scrollTop: $("#myInfo").offset().top-50
+        }, 1000);
+      });
 
+      $("#mailButton").click(function(e) {
+        e.preventDefault();
+       $('html, body').stop(true,false).animate({
+           scrollTop: $("#contact").offset().top
+       }, 1000);
+     });
+
+     $("#pbutton").click(function(e) {
+       e.preventDefault();
+      $('html, body').stop(true,false).animate({
+          scrollTop: $("#myInfo").offset().top-50
+      }, 1000);
+    });
     </script>
 
 </body>

@@ -1,5 +1,5 @@
 <template lang="html">
-  <div id="myInfo">
+  <div>
     <div class="container">
       <div class="content-section">
 
@@ -60,11 +60,8 @@ export default {
     ],
   }
 
-  },
-
-  mounted(){
-    axios.get('api/t').then(response => console.log(response))
   }
+
 }
 </script>
 

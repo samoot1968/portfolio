@@ -25,9 +25,9 @@
               <!-- Right Side Of Navbar -->
               <ul class="nav navbar-nav navbar-right">
 
-                <li><router-link to="/" >My Skills</router-link></li>
-                <li><router-link to="/portfolio">Portfolio</router-link></li>
-                <li><a href="#">Contact</a></li>
+                <li><router-link to="/" id="button">My Skills</router-link></li>
+                <li><router-link to="/portfolio" id="pbutton">Portfolio</router-link></li>
+                <li><a href="#" id="mailButton">Contact</a></li>
               </ul>
           </div><!-- End of Collapse navbar-collapse -->
       </div><!-- End of Container -->
