@@ -12668,15 +12668,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
       portfolio: [{
         name: 'Portfolio Site',
         description: 'Portfolio site to display some of my projects and to show off some of my skills. This project uses laravel as backend and bootstrap/VueJS as frontend. (Vue AJAX)',
-        link: 'https://github.com/toomas1968/cv'
+        link: ''
       }, {
         name: 'Ecommerce',
         description: 'Ecommerce site(beta).Uses laravel as backend. Has all main features including Shopping-cart, admin panel, categories etc. Im adding more features and design fixes soon.',
-        link: 'https://github.com/toomas1968/commerce'
+        link: ''
       }, {
         name: 'Digitalocean API',
         description: 'Digitalocean API to create droplets. ',
-        link: 'https://github.com/toomas1968/digitaloceanAPI'
+        link: ''
 
       }]
     };
@@ -32266,7 +32266,7 @@ var Component = __webpack_require__(2)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\xampp\\htdocs\\cv\\resources\\assets\\js\\components\\fronter.vue"
+Component.options.__file = "/var/www/cv/resources/assets/js/components/fronter.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] fronter.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -32304,7 +32304,7 @@ var Component = __webpack_require__(2)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\xampp\\htdocs\\cv\\resources\\assets\\js\\components\\myskills.vue"
+Component.options.__file = "/var/www/cv/resources/assets/js/components/myskills.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] myskills.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -32342,7 +32342,7 @@ var Component = __webpack_require__(2)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\xampp\\htdocs\\cv\\resources\\assets\\js\\components\\navigation.vue"
+Component.options.__file = "/var/www/cv/resources/assets/js/components/navigation.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] navigation.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -32380,7 +32380,7 @@ var Component = __webpack_require__(2)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\xampp\\htdocs\\cv\\resources\\assets\\js\\components\\portfolio.vue"
+Component.options.__file = "/var/www/cv/resources/assets/js/components/portfolio.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] portfolio.vue: functional components are not supported with templates, they should use render functions.")}
 
