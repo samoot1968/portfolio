@@ -41,6 +41,11 @@
           scrollTop: $("#myInfo").offset().top-50
       }, 1000);
     });
+
+    @if (count($errors) > 0)
+        $('#emailModal').modal('show');
+    @endif
+
     </script>
 
 </body>
