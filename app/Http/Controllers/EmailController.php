@@ -19,6 +19,6 @@ class EmailController extends Controller
       Mail::to('toomas.unt1968@gmail.com')->send(new AdminMail);
       Mail::to($email)->send(new ContactMe);
 
-      return redirect()->to('/');
+      return redirect()->to('/')->with('message', 'Email Sent');;
     }
 }
