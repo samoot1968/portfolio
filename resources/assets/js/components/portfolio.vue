@@ -5,7 +5,7 @@
 
         <div class="content-header">
           <h1>Personal Projects</h1>
-          <h3>Projects I'm building in my free time</h3>
+          <h3>Projects I'm building in me free time</h3>
         </div>
 
         <div class="row">

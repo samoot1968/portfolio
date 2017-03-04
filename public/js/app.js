@@ -32629,7 +32629,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 },staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
     staticClass: "content-header"
-  }, [_c('h1', [_vm._v("Personal Projects")]), _vm._v(" "), _c('h3', [_vm._v("Projects I'm building in my free time")])])
+  }, [_c('h1', [_vm._v("Personal Projects")]), _vm._v(" "), _c('h3', [_vm._v("Projects I'm building in me free time")])])
 }]}
 module.exports.render._withStripped = true
 if (false) {
