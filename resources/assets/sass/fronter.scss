@@ -133,9 +133,17 @@ p {
   border-radius: 50px;
 }
 
+.mailme-button{
+  margin-top: 20px;
+  display: block;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  clear:both;
+}
 .mailme-button > button {
   padding: 1.2rem 3.2rem;
-  color: $btn-black;
+  color: #fff;
   border: 2px solid #fff;
   border-radius: 50px;
   background-color: transparent;

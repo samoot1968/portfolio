@@ -61,7 +61,7 @@
                             <div class="col-md-12">
                               <textarea  class="form-control" rows="5" name="letter" placeholder="Tell me about yourself.*"></textarea>
                             </div>
-                            <div class="skill-section-button">
+                            <div class="mailme-button">
                               <button type="submit">Let it Fly</button>
                             </div>
                           </div>
