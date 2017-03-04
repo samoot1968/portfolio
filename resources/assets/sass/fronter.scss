@@ -12,6 +12,10 @@
 body {
   color: $text-color;
   font-family: $font-family-sans-serif;
+  -webkit-user-select: none;
+     -moz-user-select: -moz-none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 h1 {
@@ -57,7 +61,7 @@ p {
 }
 
 #particles-js {
-  height: 80vh;
+  height: 90vh;
   width: 100%;
   position: absolute;
 }
