@@ -26,4 +26,6 @@ Route::post('/send', [
 
 
 
+
+
 Auth::routes();
