@@ -5,7 +5,6 @@
       <div id="contact">
         <div class="container">
           <div class="content-section">
-
             <div class="content-header">
               <h1>Contact Me</h1>
               <h3>Send me an Email if you want to hire me</h3>
@@ -25,6 +24,16 @@
               <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
             </div>
             <div class="modal-body">
+              @if (count($errors) > 0)
+                <div class="alert alert-danger">
+                    <strong>Error</strong><br><br>
+                    <ul>
+                        @foreach ($errors->all() as $error)
+                           <li>{{ $error }}</li>
+                        @endforeach
+                    </ul>
+                </div>
+              @endif
               <div class="row">
                 <div class="content">
                   <h1>Tell me about yourself</h1>
@@ -53,7 +62,7 @@
                             </div>
                             <div class="col-md-6">
                               <div class="colums">
-                                <input class="form-control" type="text" name="website" placeholder="Website">
+                                <input class="form-control" type="text" name="website" placeholder="Website *">
                               </div>
                             </div>
                           </div>
@@ -86,5 +95,11 @@
         </div>
       </div>
   </div>
+
+  <script type="text/javascript">
+    @if (count($errors) > 0)
+        $('#emailModal').modal('show');
+    @endif
+</script>
 
 @endsection

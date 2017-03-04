@@ -7,6 +7,7 @@ use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Http\Request;
+use App\Http\Requests\Form;
 
 class AdminMail extends Mailable
 {
@@ -27,7 +28,7 @@ class AdminMail extends Mailable
      *
      * @return $this
      */
-    public function build(Request $request)
+    public function build(Form $request)
     {
 
       $name = $request->input('name');
