@@ -12,13 +12,11 @@ use App\Http\Requests\Form;
 class EmailController extends Controller
 {
     //
-    public function sendMail(Form $request){
+    public function sendMail(){
 
-      $email = $request->input('email');
 
       Mail::to('toomas.unt1968@gmail.com')->send(new AdminMail);
-      Mail::to($email)->send(new ContactMe);
 
-      return redirect()->to('/')->with('message', 'Email Sent');;
+      //return redirect()->to('/')->with('message', 'Email Sent');;
     }
 }

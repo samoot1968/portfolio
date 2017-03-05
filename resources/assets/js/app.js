@@ -11,6 +11,8 @@ require('./bootstrap');
 import VueRouter from 'vue-router';
 import vueScrollTo from 'vue-scroll-to';
 
+
+
 Vue.use(VueRouter);
 Vue.use(vueScrollTo);
 
@@ -26,7 +28,7 @@ Vue.use(vueScrollTo);
 var fronter = Vue.component('fronter', require('./components/fronter.vue'));
 var myskills = Vue.component('myskills', require('./components/myskills.vue'));
 var portfolio = Vue.component('portfolio', require('./components/portfolio.vue'));
-
+var mail = Vue.component('mail', require('./components/mail.vue'));
 
 const routes = [
   {path: '/', component: myskills},
