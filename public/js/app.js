@@ -12519,21 +12519,21 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         ids: 'code',
         class: 'fa fa-code',
         selected: 'good',
-        options: [{ text: 'Bad', value: 'bad' }, { text: 'Medicore', value: 'medicore' }, { text: 'Good', value: 'good' }, { text: 'Awesome', value: 'awesome' }],
+        options: [{ text: 'Bad', value: 'bad' }, { text: 'Average', value: 'Average' }, { text: 'Good', value: 'good' }, { text: 'Awesome', value: 'awesome' }],
         sectionText: "When writing server-side code, I use PHP as main language. Ordinarily I follow OOP principles and use LARAVEL framework as backend. I have experience in *sqli databases."
       }, {
         sectionHeader: 'UX/UI',
         ids: 'design',
         class: 'fa fa-desktop',
-        selected: 'medicore',
-        options: [{ text: 'Bad', value: 'bad' }, { text: 'Medicore', value: 'medicore' }, { text: 'Good', value: 'good' }, { text: 'Awesome', value: 'awesome' }],
+        selected: 'Average',
+        options: [{ text: 'Bad', value: 'bad' }, { text: 'Average', value: 'Average' }, { text: 'Good', value: 'good' }, { text: 'Awesome', value: 'awesome' }],
         sectionText: "For front-end I use CSS(3), HTML(5) and a touch of JS. I don't like to invent a wheel over-and-over again so I use Bootstrap. When writing JS I use Vue as framework."
       }, {
         sectionHeader: 'Server',
         ids: 'server',
         class: 'fa fa-server',
-        selected: 'medicore',
-        options: [{ text: 'Bad', value: 'bad' }, { text: 'Medicore', value: 'medicore' }, { text: 'Good', value: 'good' }, { text: 'Awesome', value: 'awesome' }],
+        selected: 'Average',
+        options: [{ text: 'Bad', value: 'bad' }, { text: 'Average', value: 'Average' }, { text: 'Good', value: 'good' }, { text: 'Awesome', value: 'awesome' }],
         sectionText: "I don't have work experience as server administrator but i know basic (linux) commands and know basic web server(apache, ngix) structural layout .For personal use I use ubuntu server(16.*) on daily basis and have experience in setting up domains."
       }]
     };
