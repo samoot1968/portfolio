@@ -22,6 +22,7 @@
 import NavBar from './navigation.vue';
 
     export default {
+
       components: {
         'navbar': NavBar
       }

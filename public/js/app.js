@@ -12451,9 +12451,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /* harmony default export */ __webpack_exports__["default"] = {
-  components: {
-    'navbar': __WEBPACK_IMPORTED_MODULE_0__navigation_vue___default.a
-  }
+
+    components: {
+        'navbar': __WEBPACK_IMPORTED_MODULE_0__navigation_vue___default.a
+    }
 
 };
 
