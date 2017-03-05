@@ -28,7 +28,7 @@ class Form extends FormRequest
           'number' => 'required|integer|min:4',
           'website' => 'required|max:50|min:4',
           'email' => 'required|max:100|min:5',
-          'letter' => 'required|min:5|max:500'
+          'letter' => 'required|min:5|max:250'
         ];
     }
 }

@@ -16,75 +16,8 @@
         </div><!-- End of container -->
       </div><!-- End of myInfo -->
 
+      <mail></mail>
 
-      <div class="modal fade modal-fullscreen force-fullscreen" id="emailModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-            </div>
-            <div class="modal-body">
-              @if (count($errors) > 0)
-                <div class="alert alert-danger">
-                    <strong>Error</strong><br><br>
-                    <ul>
-                        @foreach ($errors->all() as $error)
-                           <li>{{ $error }}</li>
-                        @endforeach
-                    </ul>
-                </div>
-              @endif
-              <div class="row">
-                <div class="content">
-                  <h1>Tell me about yourself</h1>
-                  <div class="contactme">
-                    <div class="form-container">
-                      <form  action="{{ route('contact.me')}}" method="post">
-                        <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                        <div class="form-group">
-                          <div class="row">
-                            <div class="col-md-6">
-                              <div class="colums">
-                                <input  class="form-control" type="text" name="name" placeholder="Name *">
-                              </div>
-                            </div>
-                            <div class="col-md-6">
-                              <div class="colums">
-                                <input  class="form-control" type="text" name="email" placeholder="Email Address*">
-                              </div>
-                            </div>
-                          </div>
-                          <div class="row">
-                            <div class="col-md-6">
-                              <div class="colums">
-                                <input  class="form-control" type="text" name="number" placeholder="Phone Number *">
-                              </div>
-                            </div>
-                            <div class="col-md-6">
-                              <div class="colums">
-                                <input class="form-control" type="text" name="website" placeholder="Website *">
-                              </div>
-                            </div>
-                          </div>
-                          <div class="row">
-                            <div class="col-md-12">
-                              <textarea  class="form-control" rows="5" name="letter" placeholder="Tell me about yourself.*"></textarea>
-                            </div>
-                            <div class="mailme-button">
-                              <button type="submit">Let it Fly</button>
-                            </div>
-                          </div>
-                        </div>
-                      </form>
-                    </div>
-                  </div>
-                </div><!-- End of content -->
-              </div><!-- End of Row -->
-            </div>
-          </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-      </div><!-- /.modal -->
-<!-- modal -->
       <div class="footer">
         <div class="container">
           <div class="row">
@@ -95,11 +28,5 @@
         </div>
       </div>
   </div>
-
-  <script type="text/javascript">
-    @if (count($errors) > 0)
-        $('#emailModal').modal('show');
-    @endif
-</script>
 
 @endsection

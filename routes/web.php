@@ -17,15 +17,4 @@ Route::get('/{vue_capture?}', [
 ])->where('vue_capture', '[\/\w\.-]*');
 
 
-
-Route::post('/send', [
-  'uses' => 'EmailController@sendMail',
-  'as' => 'contact.me'
-]);
-
-
-
-
-
-
 Auth::routes();
