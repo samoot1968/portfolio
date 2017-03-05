@@ -58,7 +58,7 @@ export default {
           selected: 'good',
           options: [
             { text: 'Bad', value: 'bad'},
-            { text: 'Medicore', value: 'medicore'},
+            { text: 'Average', value: 'Average'},
             { text: 'Good', value: 'good'},
             { text: 'Awesome', value: 'awesome'}
           ],
@@ -68,10 +68,10 @@ export default {
           sectionHeader: 'UX/UI',
           ids: 'design',
           class: 'fa fa-desktop',
-          selected: 'medicore',
+          selected: 'Average',
           options: [
             { text: 'Bad', value: 'bad'},
-            { text: 'Medicore', value: 'medicore'},
+            { text: 'Average', value: 'Average'},
             { text: 'Good', value: 'good'},
             { text: 'Awesome', value: 'awesome'}
           ],
@@ -81,10 +81,10 @@ export default {
           sectionHeader: 'Server',
           ids: 'server',
           class: 'fa fa-server',
-          selected: 'medicore',
+          selected: 'Average',
           options: [
             { text: 'Bad', value: 'bad'},
-            { text: 'Medicore', value: 'medicore'},
+            { text: 'Average', value: 'Average'},
             { text: 'Good', value: 'good'},
             { text: 'Awesome', value: 'awesome'}
           ],
