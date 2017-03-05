@@ -198,14 +198,20 @@ p {
 #contact {
   height: auto;
   background-color: #FDCD3B;
-  clear:both
+  clear:both;
 }
+
+
 .modal-dialog{
   height: 100%;
   width:100%;
   margin: 0;
   padding: 0;
+<<<<<<< HEAD
+  position:absolute;
+=======
   position: absolute;
+>>>>>>> 08880c8d08156489159991537028cda7af46df8a
 }
 
 .modal-content {
