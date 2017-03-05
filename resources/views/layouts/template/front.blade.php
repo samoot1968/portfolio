@@ -23,6 +23,7 @@
           <div class="row">
               <div class="col-lg-12">
                 <p>Made my me © 2017</p>
+                <a href="{{ asset('CV.pdf')}}">Download my CV</a>
               </div>
           </div>
         </div>
