@@ -85,10 +85,19 @@ p {
   margin-top: 75px;
   margin-bottom: 75px;
   clear:both;
+  height: 30vh;
 }
 
+
+.clear {
+  clear:both;
+}
 .content-header {
   padding-bottom: 75px;
+}
+
+.content {
+  padding-bottom: 150px;
 }
 
 #skill-section {
@@ -197,7 +206,8 @@ p {
 #contact {
   height: auto;
   background-color: #FDCD3B;
-  clear:both
+  clear:both;
+  min-height: 400px;
 }
 .modal-dialog{
   height: 100%;
@@ -238,13 +248,13 @@ p {
 
 #myInfo {
   @include breakpoint(xs){
-    height: auto;
+    height: 100vh;
   }
   @include breakpoint(sm){
-    height: auto;
+    height: 100vh;
   }
   @include breakpoint(md){
-    height: auto;
+    height: 100vh;
   }
   @include breakpoint(lg){
     height: 100vh;

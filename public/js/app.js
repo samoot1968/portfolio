@@ -12633,8 +12633,6 @@ Vue.use(__WEBPACK_IMPORTED_MODULE_0_vee_validate___default.a);
 //
 //
 //
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = {
   data: function data() {
@@ -15266,7 +15264,7 @@ exports = module.exports = __webpack_require__(2)();
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -35458,7 +35456,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "/var/www/cv/resources/assets/js/components/fronter.vue"
+Component.options.__file = "C:\\xampp\\htdocs\\cv\\resources\\assets\\js\\components\\fronter.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] fronter.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -35496,7 +35494,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "/var/www/cv/resources/assets/js/components/mail.vue"
+Component.options.__file = "C:\\xampp\\htdocs\\cv\\resources\\assets\\js\\components\\mail.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] mail.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -35534,7 +35532,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "/var/www/cv/resources/assets/js/components/myskills.vue"
+Component.options.__file = "C:\\xampp\\htdocs\\cv\\resources\\assets\\js\\components\\myskills.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] myskills.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -35572,7 +35570,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "/var/www/cv/resources/assets/js/components/navigation.vue"
+Component.options.__file = "C:\\xampp\\htdocs\\cv\\resources\\assets\\js\\components\\navigation.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] navigation.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -35610,7 +35608,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "/var/www/cv/resources/assets/js/components/portfolio.vue"
+Component.options.__file = "C:\\xampp\\htdocs\\cv\\resources\\assets\\js\\components\\portfolio.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] portfolio.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -35940,17 +35938,19 @@ if (false) {
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', [_c('div', {
+  return _c('div', {
+    staticClass: "clear"
+  }, [_c('div', {
     staticClass: "container"
   }, [_c('div', {
     staticClass: "content-section"
   }, [_vm._m(0), _vm._v(" "), _c('div', {
     staticClass: "row"
-  }, [_c('div', {
-    staticClass: "content"
   }, _vm._l((_vm.data), function(info) {
     return _c('div', {
-      staticClass: "col-lg-4 col-md-3 col-xs-12 col-offset-lg-12"
+      staticClass: "col-lg-4 col-md-4 col-xs-12 col-offset-lg-12"
+    }, [_c('div', {
+      staticClass: "content"
     }, [_c('div', {
       staticClass: "animated bounceInLeft",
       attrs: {
@@ -36002,8 +36002,8 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       }, [_vm._v("\n                          " + _vm._s(option.text) + "\n                        ")])
     }))]), _vm._v(" "), _c('div', {
       staticClass: "skill-section-text"
-    }, [_c('p', [_vm._v(_vm._s(info.sectionText))])])])])])])
-  }))])])])])
+    }, [_c('p', [_vm._v(_vm._s(info.sectionText))])])])])])])])
+  }))])])])
 },staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
     staticClass: "content-header"

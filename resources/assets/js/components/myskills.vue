@@ -1,5 +1,5 @@
 <template lang="html">
-  <div>
+  <div class="clear">
     <div class="container">
       <div class="content-section">
 
@@ -9,8 +9,8 @@
         </div>
 
         <div class="row">
-          <div class="content">
-            <div class="col-lg-4 col-md-3 col-xs-12 col-offset-lg-12" v-for="info in data">
+            <div class="col-lg-4 col-md-4 col-xs-12 col-offset-lg-12" v-for="info in data">
+              <div class="content">
                 <div id="skill-section" class="animated bounceInLeft">
                   <div class="inner-skill-section" >
                     <div class="skill-section-icon">
@@ -37,8 +37,6 @@
                   </div><!-- End of SkillInner-section -->
                 </div><!-- End of Skill-section -->
             </div><!-- End of Cols -->
-
-
           </div><!-- End of content -->
         </div><!-- End of Row -->
       </div><!-- End of content-section -->
